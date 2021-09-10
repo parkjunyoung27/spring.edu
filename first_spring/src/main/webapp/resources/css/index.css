@@ -1,0 +1,57 @@
+
+html, body{
+	margin:0;
+	padding:0;
+	background-color: gray;
+}
+
+body{
+}
+
+#container{
+	padding:0;
+	margin: 0 auto;
+	width: 900px;
+	height: 100%;
+}
+#header{
+	width: 900px;
+	height: 150px;
+	background-color: gray;
+}
+
+#loginform{
+	margin-top: 50px;
+	width: 900px;
+	height: 50px;
+	background-color: blue;
+	position: absolute;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+#menu{
+	width: 900px;
+	height: 50px;
+	background-color: white;
+	position: absolute;
+	margin-top: 100px;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+#menu a{
+	text-decoration: none;
+	color: black;
+}
+
+#main{
+	width: 900px;
+	min-height: calc(100vh - 150px);
+	height:100%;
+	background-color: gray;
+}
+
